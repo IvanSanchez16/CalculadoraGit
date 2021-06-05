@@ -25,6 +25,7 @@ public class App {
         System.out.println("8-4="+c.resta(8, 4));
 
         System.out.println("6/3="+c.division(6,3));
-        
+
+        System.out.println("log(1)="+c.logaritmo(1));
     }
 }

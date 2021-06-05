@@ -23,4 +23,6 @@ public class Calculadora {
     }
 
     public double resta(double x, double y) { return x - y; }
+
+    public double division(double x, double y) { return x / y; }
 }

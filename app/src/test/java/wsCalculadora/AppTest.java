@@ -60,4 +60,11 @@ public class AppTest {
         assertTrue(c.logaritmo(1)==0);
         assertTrue(c.logaritmo(10)==1);
     }
+
+    @Test public void testExponencial() {
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.exponencial(5,2)==25);
+        assertTrue(c.exponencial(6,3)==216);
+    }
 }

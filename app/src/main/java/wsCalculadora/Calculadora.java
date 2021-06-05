@@ -27,4 +27,6 @@ public class Calculadora {
     public double division(double x, double y) { return x / y; }
 
     public double logaritmo(double x) { return Math.log(x); }
+
+    public double exponencial(double x, double y) { return Math.pow(x,y); }
 }

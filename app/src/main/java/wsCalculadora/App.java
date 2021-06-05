@@ -27,5 +27,7 @@ public class App {
         System.out.println("6/3="+c.division(6,3));
 
         System.out.println("log(1)="+c.logaritmo(1));
+
+        System.out.println("5^2="+c.exponencial(5,2));
     }
 }

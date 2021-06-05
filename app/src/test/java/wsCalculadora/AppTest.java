@@ -46,4 +46,11 @@ public class AppTest {
         assertTrue(c.resta(12, 7)==5);
         assertTrue(c.resta(-6,3)==-9);
     }
+
+    @Test public void testDivision() {
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.division(6,3)==2);
+        assertTrue(c.division(10, 4)==2.5);
+    }
 }
